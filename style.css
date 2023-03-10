@@ -1,0 +1,81 @@
+body {
+    background-color: #e7e7de;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #663f46;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.player-score,
+.computer-score {
+    flex-basis: 30%;
+}
+
+.player-score p,
+.computer-score p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #663f46;
+}
+
+.player-score span,
+.computer-score span {
+    font-size: 60px;
+    font-weight: bold;
+    color: #663f46;
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 24px;
+    padding: 15px;
+    margin: 0 10px;
+    background-color: #c7b198;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #663f46;
+}
+
+.result {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 40px;
+    border: 10px solid #c7b198;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e7e7de;
+    color: #663f46;
+}
